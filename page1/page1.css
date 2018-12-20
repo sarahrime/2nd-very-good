@@ -1,0 +1,84 @@
+.container-mobile {
+  width: 414px;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  min-height: 100vh;
+}
+ 
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+img {
+	width: 80px
+}
+
+
+.tops{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 0px 18px
+}
+
+.top{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 200px;
+	flex-grow: 0;
+	margin: 2px;
+}
+
+.taille-accueil{
+	width: 380px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header{
+	width: 20px
+}
+
+.logo{
+	width: 80px
+}
+
+.bottom{
+	width: 50px
+}
+
+p {
+	color: #EAC075;
+	font-family: 'Questrial', sans-serif;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.grand-cadre {
+width: 414px;
+  background-color: white;
+  text-align: center;
+  margin: 0px;
+  min-height: 100vh;
+  padding: 0px 5px;
+border: 5px solid #EAC075;
+
+}
+
+.links{
+  color: #3F3F3F;
+  text-decoration: none;
+}
+
+a:visited{
+    color: #3F3F3F;
+    text-decoration: none;
+}
